@@ -8,4 +8,8 @@ class PagesController < ApplicationController
 
   end
 
+  def articles
+
+  end
+
 end
