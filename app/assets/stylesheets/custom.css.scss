@@ -1,0 +1,36 @@
+.jumbotron {
+  background-image: asset-url('juskteez-vu-3824.jpg');
+  background-size: cover;
+  height: 600px;
+}
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+}
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #EAEAEA;
+  color: #777;
+}
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+footer ul {
+  float: right;
+  list-style: none;
+}
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
