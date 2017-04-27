@@ -16,6 +16,9 @@
       <%= render 'layouts/messages' %>
       <%= yield %>
     </div>
+    <div class="card mt-4">
+      <%= debug(params) if Rails.env.development? %>
+    </div>
     <%= render 'layouts/footer' %>
   </body>
 </html>
